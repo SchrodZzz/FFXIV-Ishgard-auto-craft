@@ -24,29 +24,29 @@ def off(num):
 
 def press(num, delay=BUTTON_DELAY):
     time.sleep(delay)
-    print(">> Press on button number %s" % num)
+    print(">> Pressing on button number %s" % num)
     on(num)
     time.sleep(BUTTON_DELAY)
     off(num)
 
 def press_with_RT(num, delay=BUTTON_DELAY):
     time.sleep(delay)
-    print(">>> Press %s" % RT)
+    print(">>> %s press is on" % RT)
     on(RT)
     press(num)
     off(RT)
-    print(">>> Unpress %s" % RT)
+    print(">>> %s press is off" % RT)
 
 def wait_macro(t=MACRO_DURATION):
     bonus = random.randint(1, 25) / 10
-    print(">>> Wait Macro to complete for %s sec" % (t + bonus))
+    print(">>> Waiting macro to complete for %s sec" % (t + bonus))
     time.sleep(t+bonus)
 
 
 def craft(n=20):
     minutes_to_finish = ((MACRO_DURATION + 5 * 2 * BUTTON_DELAY) * n / 60)
     print("> Expected time to complete: %.2f min" % minutes_to_finish)
-    print("> Wait 5 sec to focus game screen")
+    print("> Waiting 5 sec for user to focus game screen")
     time.sleep(5)
     for i in range(n):
         print("> Starting craft %s/%s" % (i+1, n))
