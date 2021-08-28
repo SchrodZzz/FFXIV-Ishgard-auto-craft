@@ -1,6 +1,7 @@
 # FFXIV Ishgard auto craft
 
 *Simple script to automate procces of crafting dozens of same items in ishgard*
+__Using this script might violate ToS so don't get banned ^^__
 
 # How to use
 
@@ -23,4 +24,4 @@ If your want to use another slot -- by default ABXY button are first 4 in vJoy.
 * In main.py change constants if needed (time your macro requires, button numbers for RT and B, button press delay)
 * Launch main.py and use craft(n) to start the craft cycle.
 * Select window with the game so it gets input signals from vJoy.
-* Enjoy your free time with out need to start croft every minute. (:
+* Enjoy your free time without need to start croft every minute. (:
