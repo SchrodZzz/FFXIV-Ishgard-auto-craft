@@ -1,6 +1,7 @@
 # FFXIV Ishgard auto craft
 
 *Simple script to automate procces of crafting dozens of same items in ishgard*
+
 __Using this script might violate ToS so don't get banned ^^__
 
 # How to use
